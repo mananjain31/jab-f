@@ -1,0 +1,31 @@
+{
+  "name": "jab-f",
+  "version": "1.0.0",
+  "description": "",
+  "main": "src/index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "npm run build && node build/index.js",
+    "start:dev": "npx nodemon",
+    "build": "rimraf ./build && tsc"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mananjain31/jab-f.git"
+  },
+  "author": "mananjain31",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/mananjain31/jab-f/issues"
+  },
+  "homepage": "https://github.com/mananjain31/jab-f#readme",
+  "dependencies": {
+    "typescript": "^5.2.2"
+  },
+  "devDependencies": {
+    "@types/node": "^20.9.1",
+    "nodemon": "^3.0.1",
+    "rimraf": "^5.0.5",
+    "ts-node": "^10.9.1"
+  }
+}
